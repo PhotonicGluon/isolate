@@ -23,3 +23,6 @@ at the IOI Conference. Also, Isolate's [manual page](http://www.ucw.cz/moe/isola
 is available online.
 
 To compile Isolate, you need docker to run the docker file.
+
+Most of the code was **not** written by me (Ryan-Kan). I've added some files to complile it using Docker, but most was written by the people mentioned above. You can find the original source code at [https://github.com/ioi/isolate](https://github.com/ioi/isolate). I've merely updated the code so that it can be used with Docker.
+
