@@ -1,5 +1,6 @@
-# Object file
+docbook-xsl.css
+isolate
+isolate.1
+isolate.1.html
 *.o
-
-# Ada Library Information
-*.ali
+.DS_Store
