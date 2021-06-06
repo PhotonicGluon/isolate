@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# setup-linux-cli
+#
+# Created on 2021-03-13
+# Updated on 2021-03-13
+#
+# Copyright © Ryan Kan
+#
+# Description: Runs the commands needed to set up the CLI.
+#
+
+echo 0 > /proc/sys/kernel/randomize_va_space
+echo never > /sys/kernel/mm/transparent_hugepage/enabled
+echo never > /sys/kernel/mm/transparent_hugepage/defrag
+echo 0 > /sys/kernel/mm/transparent_hugepage/khugepaged/defrag
+
+bash
